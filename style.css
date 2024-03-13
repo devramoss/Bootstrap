@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 25px;
+    
+}
+
+.container-fluid{
+    background-color: blueviolet;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.card-text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
